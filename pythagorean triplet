@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{ 
+  int a=3,b=4,c=5;
+  if(pow(a,2)+pow(b,2)==pow(c,2))
+  {
+    printf("It is a Pyhthagorean Triplet");
+  }
+  else
+  {
+    printf("It is not a Pythagorean Triplet");
+  }
+  return 0;
+}
